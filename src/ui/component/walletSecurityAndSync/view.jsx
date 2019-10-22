@@ -211,7 +211,7 @@ export default () => null;
 //         <h2 className="card__title">{__('Wallet Sync and Security')}</h2>
 //         {!isEmailVerified && (
 //           <React.Fragment>
-//             <p className="card__subtitle">
+//             <p className="section__subtitle">
 //               {__(`It looks like we don't have your email.`)}{' '}
 //               <Button
 //                 button="link"
@@ -232,7 +232,7 @@ export default () => null;
 //         {/* Errors and status */}
 //         {!componentState.advancedMode && (
 //           <React.Fragment>
-//             <p className="card__subtitle">
+//             <p className="section__subtitle">
 //               {__(`Easy Mode: Sync and go with default security! Don't trust your roommate?`)}{' '}
 //               <Button
 //                 button="link"
@@ -245,7 +245,7 @@ export default () => null;
 //         )}
 //         {componentState.advancedMode && (
 //           <React.Fragment>
-//             <p className="card__subtitle">
+//             <p className="section__subtitle">
 //               {__('Advanced Mode: Enter a password that matches your other devices LBRY password.')}{' '}
 //               <Button
 //                 button="link"
@@ -256,7 +256,7 @@ export default () => null;
 //             </p>
 //           </React.Fragment>
 //         )}
-//         {syncApplyErrorMessage && <div className="card__subtitle--status">{__(syncApplyErrorMessage)}</div>}
+//         {syncApplyErrorMessage && <div className="section__subtitle--status">{__(syncApplyErrorMessage)}</div>}
 
 //         <Form onSubmit={() => apply()}>
 //           {componentState.advancedMode && (
@@ -336,7 +336,7 @@ export default () => null;
 //                 onChange={event => onChangeEncrypt(event)}
 //                 label={__('Encrypt Wallet')}
 //               />
-//               <div className="card__subtitle--status">
+//               <div className="section__subtitle--status">
 //                 {__(
 //                   'If your password is lost, it cannot be recovered. You will not be able to access your wallet without a password.'
 //                 )}

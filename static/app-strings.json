@@ -835,5 +835,7 @@
   "Upload custom CSS file.": "Upload custom CSS file.",
   "Upload custom CSS file": "Upload custom CSS file",
   "Want to add your own theme? %link%": "Want to add your own theme? %link%",
-  "Want to add your own theme? %link%.": "Want to add your own theme? %link%."
+  "Want to add your own theme? %link%.": "Want to add your own theme? %link%.",
+  "This is equivalent to a password. Do not post or share this.": "This is equivalent to a password. Do not post or share this.",
+  "Simple Editor": "Simple Editor"
 }
