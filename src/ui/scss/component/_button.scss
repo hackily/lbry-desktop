@@ -47,8 +47,8 @@
 }
 
 .button--inverse {
-  border-color: $lbry-teal-4;
-  color: $lbry-teal-5;
+  border-color: var(--color-link);
+  color: var(--color-link);
 
   &:hover {
     color: $lbry-white;
@@ -57,11 +57,6 @@
       stroke: $lbry-white;
     }
   }
-
-  [data-mode='dark'] & {
-    border-color: $lbry-teal-4;
-    color: $lbry-teal-3;
-  }
 }
 
 .button--alt {
@@ -69,7 +64,7 @@
 }
 
 .button--link {
-  [data-mode='dark'] & {
+  [theme='dark'] & {
     color: $lbry-teal-4;
 
     &:hover {
@@ -99,7 +94,7 @@
       color: $lbry-teal-3;
     }
 
-    [data-mode='dark'] & {
+    [theme='dark'] & {
       color: $lbry-teal-4;
       &:hover {
         color: $lbry-teal-3;

@@ -137,7 +137,7 @@ function App(props: Props) {
 
   useEffect(() => {
     // $FlowFixMe
-    document.documentElement.setAttribute('data-mode', theme);
+    document.documentElement.setAttribute('theme', theme);
   }, [theme]);
 
   useEffect(() => {
