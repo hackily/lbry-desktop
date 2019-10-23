@@ -837,5 +837,8 @@
   "Want to add your own theme? %link%": "Want to add your own theme? %link%",
   "Want to add your own theme? %link%.": "Want to add your own theme? %link%.",
   "This is equivalent to a password. Do not post or share this.": "This is equivalent to a password. Do not post or share this.",
-  "Simple Editor": "Simple Editor"
+  "Simple Editor": "Simple Editor",
+  "This will clear the application cache, and might fix issues you are having in the app. Your wallet will not be affected. ": "This will clear the application cache, and might fix issues you are having in the app. Your wallet will not be affected. ",
+  "This will clear the application cache, and might fix issues you are having. Your wallet will not be affected. ": "This will clear the application cache, and might fix issues you are having. Your wallet will not be affected. ",
+  "Suggested": "Suggested"
 }
