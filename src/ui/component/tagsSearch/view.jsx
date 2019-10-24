@@ -96,14 +96,15 @@ export default function TagsSearch(props: Props) {
         <p className="section__subtitle">{__('Following')}</p>
         <ul className="tags--remove">
           {tagsPasssedIn.map(tag => (
-            <Tag
-              key={tag.name}
-              name={tag.name}
-              type="remove"
-              onClick={() => {
-                onRemove(tag);
-              }}
-            />
+            <li key={tag.name}>
+              <Tag
+                name={tag.name}
+                type="remove"
+                onClick={() => {
+                  onRemove(tag);
+                }}
+              />
+            </li>
           ))}
           <li>
             <FormField
